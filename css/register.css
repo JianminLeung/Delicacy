@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body, ul, li, div, span, a, h1, h2, h3, h4, h5, h6, input, label, img, p {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+ul, li {
+	list-style: none;
+}
+.g_container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.nav li a:hover{
+	opacity: 0.8;
+	filter: alpht(opacity=80);
+}
+body {
+	width: 100%;
+	height: 100%;
+    background:#fff url(file:///D|/Program%20Files%20(x86)/USBWebserver%20v8.5/8.5/root/Delicacy/image/login_bg.jpg) no-repeat left top;
+	background-size:100%;
+}
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+#container {
+	margin:0 auto; 
+	width:100%;
+}
+
+#content {
+	overflow: hidden;
+}
+
+
+#sidebar{
+	margin-top:200px;
+	float:right;
+	width:400px;
+	height:450px;
+	margin-right:28px;
+	overflow:hidden;
+	text-align:center;
+	font-size:24px;
+	color: #919289;
+	background-color:#ffffff;
+}
+.text{
+	font-size:18px;
+	width:230px;
+	height:35px;
+	border-radius:3px;
+	margin:0 auto;
+}
+.register {
+	border:none;
+	font-size:24px;
+	width:230px;
+	height:35px;
+	background-color:#8ed5eb;
+	color:#65675e;
+	align-content:center;
+	border-radius:12px;
+	margin-top:10px;
+}
+input::-webkit-input-placeholder { 
+color: #919289; 
+-webkit-transition: color.5s; 
+} 
+input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder { 
+color: #c2c2c2; 
+-webkit-transition: color.5s; 
+} 
+
+/*底部*/
+.footer {
+	width: 100%;
+	margin-top: 15px;/*position: absolute;*/
+	/*top:1130px;*/
+}
+.f_line {
+	width: 562px;
+	border-bottom: 3px solid rgba(32,32,32,0.9);
+}
+.footer ul {
+	margin-top: 22px;
+	padding-bottom: 70px;
+}
+.footer ul li {
+	float: left;
+}
+.footer ul li a {
+	display: inline-block;
+	font-size: 18px;
+	color: rgba(32,32,32,0.9);
+	margin-right: 49px;
+}

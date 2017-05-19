@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body, ul, li, div, span, a, h1, h2, h3, h4, h5, h6, input, label, img, p {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+ul, li {
+	list-style: none;
+}
+.g_container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.nav li a:hover{
+	opacity: 0.8;
+	filter: alpht(opacity=80);
+}
+body {
+	width: 100%;
+	height: 100%;
+    background:#fff url(../images/forum_bg.jpg) no-repeat left top;
+	background-size:100%;
+}
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+/*顶部*/
+.header {
+	height: 70px;
+}
+.header_wrapper {
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	background-color: rgba(32,32,32,0.9);
+}
+.nav {
+	float: left;
+	width: 500px;
+	height: 100%;
+	margin-top: 27px;
+}
+.nav li {
+	float: left;
+	display: inline-block;
+	margin-right: 55px;
+	letter-spacing: 1px;
+}
+.nav li a {
+	color: #ffffff;
+	font-size: 22px;
+}
+.nav .active {
+	color: #f1a85a;
+	font-size: 24px;
+}
+.log_res{
+	float:left;
+	width:500px;
+	height:100%;
+	margin-top:30px;
+	margin-left:50px;
+}
+.log_res a {
+	float:right;
+	display: block;
+	width: 80px;
+	height: 18px;
+	text-align: center;
+	font-size: 12px;
+	text-decoration: none;
+	color: #fff;
+	margin-right:40px;
+	display:inline-block;
+	letter-spacing:1px;
+}
+
+/*底部*/
+.footer {
+	width: 100%;
+	margin-top: 100px;/*position: absolute;*/
+	/*top:1130px;*/
+}
+.f_line {
+	width: 562px;
+	border-bottom: 3px solid rgba(32,32,32,0.9);
+}
+.footer ul {
+	margin-top: 20px;
+	padding-bottom: 70px;
+}
+.footer ul li {
+	float: left;
+}
+.footer ul li a {
+	display: inline-block;
+	font-size: 18px;
+	color: rgba(32,32,32,0.9);
+	margin-right: 49px;
+}
+
+/*论坛部分*/
+.mainContent{
+}
+.content {
+	margin:auto;
+	margin-top:250px;
+	width: 960px;
+	overflow: hidden;
+}
+.topic{
+	font-size:36px;
+	clear:both;
+	height: 36px;
+	margin-bottom: 15px;
+}
+.instruct {
+	width:800px;
+	resize:none;
+	color:#313131;
+	font-size: 20px;
+	text-indent: 5px;
+	margin-bottom: 3px;
+}
+.picture{
+	overflow: hidden;
+}
+.picture li{
+	width:120px;
+	height: 120px;
+	border-radius: 3px;
+	border:1px solid #313131;
+	float: left;
+	margin:0 10px 10px 0;
+	position: relative;
+}
+.picture li a{
+	width:120px;
+	height: 120px;
+	position: absolute;
+}
+.comment {
+	width:800px;
+}
+.comment img{
+	margin-left:720px;
+	width:20px;
+	height:20px;
+}
+.comment input{
+	font-size:22px;
+	color:#65675E;
+	border:none;
+	background-color:rgba(0,0,0,0);
+}
+.comment textarea{
+	width:820px;
+	height:80px;
+	resize:none;
+	border:1px solid #3f3e3e;
+	border-radius: 3px;
+	outline: none;
+	color:#313131;
+	font-size: 16px;
+	text-indent: 5px;
+	margin-bottom: 3px;
+}
+#display input{
+	margin-left:720px;
+	font-size:20px;
+	width:40px;
+	height:20px;
+}
+.head img{
+	margin-left:10px;
+	width:20px;
+	height:20px;
+}
+
+
+
+
+
+
+
